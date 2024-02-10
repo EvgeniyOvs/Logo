@@ -1,0 +1,19 @@
+@import "../../main.global";
+.questions{
+    &__wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      @media (max-width: (768px)) {
+        align-items: start;
+      }
+    }
+
+  &__title{
+    margin-bottom: 40px;
+    @media (max-width: (768px)) {
+      margin-bottom: 31px;
+    }
+  }
+}

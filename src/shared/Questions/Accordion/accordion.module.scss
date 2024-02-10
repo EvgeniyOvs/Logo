@@ -1,0 +1,12 @@
+.accordionDekstop{
+  display: block;
+  @media (max-width: (768px)) {
+    display: none;
+  }
+}
+.accordionMobile{
+ display: none;
+  @media (max-width: (768px)) {
+    display: block;
+  }
+}

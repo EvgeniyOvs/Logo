@@ -1,0 +1,54 @@
+@import "../../../../color.module";
+.item{
+  padding: 12px;
+  background-color: $greyF8;
+
+
+  &:not(:last-child){
+    margin-bottom: 15px;
+  }
+
+  &__header{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    background: transparent;
+
+    &__wrapper{
+
+    }
+    &__title{
+      margin-bottom: 15px;
+    }
+    &__wrap{
+
+      &__first{
+        margin-bottom: 20px;
+        span{
+          line-height: 130%;
+        }
+      }
+      &__second{
+        width: 97%;
+        span{
+          line-height: 130%;
+        }
+      }
+    }
+    &__descr{
+        width: 99%;
+        span{
+          line-height: 130%;
+        }
+    }
+  }
+
+
+
+}
+
+
+
