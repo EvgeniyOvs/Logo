@@ -10,7 +10,7 @@ import {RightArrow} from "../../Icons/RightArrow.tsx";
 import {Modal} from "../../Modal";
 import {useState} from "react";
 
-
+import checkUp from '../../../img/check_up.png'
 
 // Import Swiper styles
 type slides = {
@@ -101,7 +101,8 @@ export function Slider({items}: MySlider) {
                               </div>
                           </div>
                           <div className={styles.slide__img}>
-                              <img src={slide.imageUrl} alt="кабинет"/>
+                              <img src={checkUp} alt="кабинет"/>
+
                           </div>
                       </div>
                   </SwiperSlide>
