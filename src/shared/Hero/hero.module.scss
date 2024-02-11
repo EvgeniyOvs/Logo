@@ -16,6 +16,12 @@
     flex-direction: column;
     transform: translate(86px, -12px);
 
+    @media (max-width: (1280px)) {
+      padding-left: 0px;
+      padding-bottom: 0px;
+      align-items: center;
+      transform: translate(0px, 0px);
+    }
     @media (max-width: (768px)) {
       padding-left: 96px;
       padding-bottom: 53px;
@@ -33,8 +39,11 @@
       span{
         line-height: 47px;
       }
+      @media (max-width: (1280px)) {
+        width: 60%;
+      }
       @media (max-width: (768px)) {
-        width: 32%;
+        width: 50%;
         margin-bottom: 9px;
       }
       @media (max-width: (576px)) {
@@ -46,8 +55,11 @@
       span{
         line-height: 130%;
       }
+      @media (max-width: (1280px)) {
+        width: 60%;
+      }
       @media (max-width: (768px)) {
-        width: 38%;
+        width: 46%;
         span{
           line-height: 150%;
         }

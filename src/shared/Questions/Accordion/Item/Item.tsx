@@ -46,6 +46,7 @@ export function Item({id, title, description, onClick, isOpen, isTwoQuestions, s
                             <Text  size={18} mobileSize={14} color={Ecolor.black} weight={700}>
                                 {secondTitle}
                             </Text>
+                            <span> </span>
                             <Text  size={18} mobileSize={14} color={Ecolor.black} weight={400}>
                                 {secondDescription}
                             </Text>

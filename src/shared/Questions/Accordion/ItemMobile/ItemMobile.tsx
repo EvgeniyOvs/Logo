@@ -30,6 +30,7 @@ export function ItemMobile({id, title, description, isTwoQuestions, secondTitle,
                               <Text  size={18} mobileSize={16} color={Ecolor.black} weight={700}>
                                   {secondTitle}
                               </Text>
+                              <span> </span>
                               <Text  size={18} mobileSize={16} color={Ecolor.black} weight={400}>
                                   {secondDescription}
                               </Text>
